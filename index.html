@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trabajo Practico JS</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Div con párrafos y botón para cambiar el color -->
+    <div>
+      <p class="parrafo">Este es el primer párrafo.</p>
+      <p class="parrafo">Este es el segundo párrafo.</p>
+      <p class="parrafo">Este es el tercer párrafo.</p>
+      <button id="cambiarColorBtn">Cambiar a color azul</button>
+    </div>
+    
+    <!-- Formulario para mostrar alerta -->
+    <form id="miFormulario">
+      <label for="campoTextoAlerta">Ingresa algo:</label>
+      <input type="text" id="campoTextoAlerta" name="campoTextoAlerta">
+      <button type="button" id="botonAlerta">Mostrar Alerta</button>
+    </form>
+    
+    <!-- Lista con elementos -->
+    <ul id="miLista">
+      <li>Elemento 1</li>
+      <li>Elemento 2</li>
+      <li>Elemento 3</li>
+      <li>Elemento 4</li>
+    </ul>
+    
+    <!-- Formulario para deshabilitar y habilitar campo de texto -->
+    <form id="formHabilitarDeshabilitar">
+      <input type="text" id="campoTexto" placeholder="Escribe algo aquí...">
+      <button type="button" id="deshabilitarBoton">Deshabilitar</button>
+      <button type="button" id="habilitarBoton">Habilitar</button>
+    </form>
+    
+    <!-- Formulario para guardar correo en localStorage -->
+    <form id="formCorreo">
+      <label for="email">Correo Electrónico:</label>
+      <input type="email" id="email" name="email" required>
+      <button type="submit">Guardar</button>
+    </form>
+    
+    <!-- Div para mostrar el correo guardado -->
+    <div id="mostrarCorreo"></div>
+    
+    <!-- Enlace a archivo JavaScript -->
+    <script src="main.js"></script>
+  </body>
+</html>
